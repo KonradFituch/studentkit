@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow1</class>
+ <widget class="QMainWindow" name="MainWindow1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1364</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Edytor notatek</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1361</width>
+      <height>511</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1364</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPlik">
+    <property name="title">
+     <string>Plik</string>
+    </property>
+    <addaction name="actionNowy"/>
+    <addaction name="actionOtw_rz"/>
+    <addaction name="separator"/>
+    <addaction name="actionZapisz"/>
+    <addaction name="actionZapisz_jako"/>
+   </widget>
+   <widget class="QMenu" name="menuEdytuj">
+    <property name="title">
+     <string>Edytuj</string>
+    </property>
+    <addaction name="actionWytnij"/>
+    <addaction name="actionKopiuj"/>
+    <addaction name="actionWklej"/>
+    <addaction name="separator"/>
+    <addaction name="actionCofnij"/>
+    <addaction name="actionPowt_rz"/>
+   </widget>
+   <widget class="QMenu" name="menuO_programie">
+    <property name="title">
+     <string>O programie</string>
+    </property>
+    <addaction name="actionO_notatniku"/>
+   </widget>
+   <widget class="QMenu" name="menuMenu_g_wne">
+    <property name="title">
+     <string>Menu główne</string>
+    </property>
+    <addaction name="actionPrzejdz_do_menu_glownego"/>
+   </widget>
+   <addaction name="menuPlik"/>
+   <addaction name="menuEdytuj"/>
+   <addaction name="menuO_programie"/>
+   <addaction name="menuMenu_g_wne"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNowy"/>
+   <addaction name="actionOtw_rz"/>
+   <addaction name="actionZapisz"/>
+   <addaction name="actionZapisz_jako"/>
+   <addaction name="separator"/>
+   <addaction name="actionWytnij"/>
+   <addaction name="actionKopiuj"/>
+   <addaction name="actionWklej"/>
+   <addaction name="separator"/>
+   <addaction name="actionPowt_rz"/>
+   <addaction name="actionCofnij"/>
+   <addaction name="separator"/>
+   <addaction name="actionO_notatniku"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionNowy">
+   <property name="icon">
+    <iconset resource="../img/ikonki_notatnik.qrc">
+     <normaloff>:/new/prefix1/new.png</normaloff>:/new/prefix1/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nowy</string>
+   </property>
+  </action>
+  <action name="actionOtw_rz">
+   <property name="icon">
+    <iconset resource="../img/ikonki_notatnik.qrc">
+     <normaloff>:/new/prefix1/open.png</normaloff>:/new/prefix1/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Otwórz</string>
+   </property>
+  </action>
+  <action name="actionZapisz">
+   <property name="icon">
+    <iconset resource="../img/ikonki_notatnik.qrc">
+     <normaloff>:/new/prefix1/save.png</normaloff>:/new/prefix1/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zapisz</string>
+   </property>
+  </action>
+  <action name="actionZapisz_jako">
+   <property name="icon">
+    <iconset resource="../img/ikonki_notatnik.qrc">
+     <normaloff>:/new/prefix1/save-as.png</normaloff>:/new/prefix1/save-as.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zapisz jako</string>
+   </property>
+  </action>
+  <action name="actionWytnij">
+   <property name="icon">
+    <iconset resource="../img/moje_zasoby.qrc">
+     <normaloff>:/new/prefix1/cut.png</normaloff>:/new/prefix1/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>Wytnij</string>
+   </property>
+  </action>
+  <action name="actionKopiuj">
+   <property name="icon">
+    <iconset resource="../img/moje_zasoby.qrc">
+     <normaloff>:/new/prefix1/copy.png</normaloff>:/new/prefix1/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kopiuj</string>
+   </property>
+  </action>
+  <action name="actionWklej">
+   <property name="icon">
+    <iconset resource="../img/ikonki_notatnik.qrc">
+     <normaloff>:/new/prefix1/paste.png</normaloff>:/new/prefix1/paste.png</iconset>
+   </property>
+   <property name="text">
+    <string>Wklej</string>
+   </property>
+  </action>
+  <action name="actionCofnij">
+   <property name="icon">
+    <iconset resource="../img/ikonki_notatnik.qrc">
+     <normaloff>:/new/prefix1/undo.png</normaloff>:/new/prefix1/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cofnij</string>
+   </property>
+  </action>
+  <action name="actionO_notatniku">
+   <property name="icon">
+    <iconset resource="../img/moje_zasoby.qrc">
+     <normaloff>:/new/prefix1/about.png</normaloff>:/new/prefix1/about.png</iconset>
+   </property>
+   <property name="text">
+    <string>O notatniku</string>
+   </property>
+  </action>
+  <action name="actionPowt_rz">
+   <property name="icon">
+    <iconset resource="../img/ikonki_notatnik.qrc">
+     <normaloff>:/new/prefix1/redo.png</normaloff>:/new/prefix1/redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Powtórz</string>
+   </property>
+  </action>
+  <action name="actionPrzejdz_do_menu_glownego">
+   <property name="text">
+    <string>Przejdz do menu glownego</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../img/moje_zasoby.qrc"/>
+  <include location="../img/ikonki_notatnik.qrc"/>
+ </resources>
+ <connections/>
+</ui>

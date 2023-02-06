@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1618</width>
+    <height>735</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>S T U D E N T K I T</string>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Triangular</enum>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="font">
+       <font>
+        <family>Rockwell Condensed</family>
+        <pointsize>28</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>40</y>
+         <width>676</width>
+         <height>173</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Viner Hand ITC</family>
+         <pointsize>72</pointsize>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(58, 117, 175)</string>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>STUDENTKIT</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="margin">
+        <number>9</number>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="otworz_notatnik">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>230</y>
+         <width>301</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(202, 244, 255);
+font: 700 22pt &quot;Rockwell&quot;;
+color: rgb(58, 117, 175);
+border-color: rgb(58, 117, 175);
+</string>
+       </property>
+       <property name="text">
+        <string>NOTATNIK</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="otworz_kalendarz">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>360</y>
+         <width>301</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(202, 244, 255);
+font: 700 22pt &quot;Rockwell&quot;;
+color: rgb(58, 117, 175);
+border-color: rgb(58, 117, 175);
+</string>
+       </property>
+       <property name="text">
+        <string>KALENDARZ</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="otworz_planzajec">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>490</y>
+         <width>301</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(202, 244, 255);
+font: 700 22pt &quot;Rockwell&quot;;
+color: rgb(58, 117, 175);
+border-color: rgb(58, 117, 175);
+</string>
+       </property>
+       <property name="text">
+        <string>PLAN ZAJEC</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="wjdz_z_programu">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>650</y>
+         <width>80</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Rockwell Condensed</family>
+         <pointsize>11</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(58, 117, 175);
+
+color: rgb(202, 244, 255);</string>
+       </property>
+       <property name="text">
+        <string>Wyjdź </string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1618</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

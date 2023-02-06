@@ -1,0 +1,15 @@
+debug/main.o
+debug/mainwindow.o
+debug/mainwindow1.o
+debug/mainwindow2.o
+debug/mainwindow3.o
+debug/mainwindow4.o
+debug/qrc_ikonki_notatnik.o
+debug/qrc_moje_ikony.o
+debug/qrc_moje_zasoby.o
+debug/qrc_qmake_qmake_qm_files.o
+debug/moc_mainwindow.o
+debug/moc_mainwindow1.o
+debug/moc_mainwindow2.o
+debug/moc_mainwindow3.o
+debug/moc_mainwindow4.o

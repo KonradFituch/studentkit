@@ -1,0 +1,15 @@
+release/main.o
+release/mainwindow.o
+release/mainwindow1.o
+release/mainwindow2.o
+release/mainwindow3.o
+release/mainwindow4.o
+release/qrc_ikonki_notatnik.o
+release/qrc_moje_ikony.o
+release/qrc_moje_zasoby.o
+release/qrc_qmake_qmake_qm_files.o
+release/moc_mainwindow.o
+release/moc_mainwindow1.o
+release/moc_mainwindow2.o
+release/moc_mainwindow3.o
+release/moc_mainwindow4.o

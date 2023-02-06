@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow3</class>
+ <widget class="QMainWindow" name="MainWindow3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>597</width>
+    <height>415</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Plan Zajęć</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="styleSheet">
+          <string notr="true">background-color: #E0FFFF;
+text-align:center;</string>
+         </property>
+         <row>
+          <property name="text">
+           <string>8-9</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>9-10</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>10-11</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>11-12</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>12-13</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>13-14</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>14-15</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>15-16</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>16-17</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>17-18</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Poniedziałek</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>9</pointsize>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="background">
+           <color>
+            <red>62</red>
+            <green>124</green>
+            <blue>186</blue>
+           </color>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Wtorek</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="background">
+           <color>
+            <red>58</red>
+            <green>117</green>
+            <blue>175</blue>
+           </color>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Środa</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="background">
+           <color>
+            <red>58</red>
+            <green>117</green>
+            <blue>175</blue>
+           </color>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Czwartek</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="background">
+           <color>
+            <red>58</red>
+            <green>117</green>
+            <blue>175</blue>
+           </color>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Piątek</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="background">
+           <color>
+            <red>58</red>
+            <green>117</green>
+            <blue>175</blue>
+           </color>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>Metody num. s.310</string>
+          </property>
+          <property name="background">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>58</red>
+             <green>117</green>
+             <blue>175</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="background">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>58</red>
+             <green>117</green>
+             <blue>175</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>Rachunek prawd. s.457</string>
+          </property>
+         </item>
+         <item row="0" column="4">
+          <property name="text">
+           <string>Elektronika  s.567</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string> WF s.9</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>C++ s.101</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>Fizyka s.60</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>J. ang s.21</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string> Python s.333</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>597</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu_g_wne">
+    <property name="title">
+     <string>Menu główne</string>
+    </property>
+    <addaction name="actionPowr_t_do_menu_g_wnego"/>
+   </widget>
+   <addaction name="menuMenu_g_wne"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionPowr_t_do_menu_g_wnego">
+   <property name="text">
+    <string>Powrót do menu głównego</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
